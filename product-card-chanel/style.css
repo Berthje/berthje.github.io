@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+    display: flex;
+}
+.hero-container .product-img{
+    height: 450px;
+    border-radius: 15px 0 0 15px;
+}
+.container{
+    width: 270px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 15px 15px 0px;
+    padding: 30px;
+}
+.hero-title, .price{
+    font-family: 'Fraunces', serif;
+}
+.description, .product-title, .cta-btn, .price span{
+    font-family: 'Montserrat', sans-serif;
+}
+.product-title{
+    letter-spacing: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+.hero-title{
+    font-size: 30px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    line-height: 1.1;
+}
+.description{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    max-width: 230px;
+    line-height: 1.7;
+}
+.product-title, .hero-title, .description, .price{
+    margin-bottom: 20px;
+}
+.cta-btn{
+    width: 100%;
+    padding: 15px 30px;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.hero-container .container .cta-btn img{
+    height: 20px;
+    margin-right: 10px;
+}
+.price{
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+.price span{
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
