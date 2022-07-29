@@ -84,3 +84,24 @@ body{
 .cta-btn:hover{
     background-color: hsl(158, 43%, 19%);
 }
+
+@media only screen and (max-width: 700px) {
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-container .product-img{
+        object-fit: cover;
+        height: 250px;
+        border-radius: 15px 15px 0 0;
+    }
+    .container{
+        border-radius: 0 0 15px 15px;
+    }
+    .description{
+        font-size: 16px;
+        max-width: none;
+    }
+    .hero-title br{
+        display: none;
+    }
+}
