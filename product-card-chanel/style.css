@@ -62,6 +62,7 @@ body{
     justify-content: center;
     align-items: center;
     font-weight: 700;
+    cursor: pointer;
 }
 .hero-container .container .cta-btn img{
     height: 20px;
@@ -79,4 +80,7 @@ body{
     font-weight: 500;
     margin-left: 20px;
     text-decoration: line-through;
+}
+.cta-btn:hover{
+    background-color: hsl(158, 43%, 19%);
 }
