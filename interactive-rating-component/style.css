@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Overpass', sans-serif;
+}
+html, body{
+    height: 100vh;
+}
+body{
+    background-color: #121417;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+    background-image: radial-gradient(circle at top center, #28303a, #161a20);
+    height: 25rem;
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.star-icon{
+    background-color: rgba(124, 135, 152, 0.2);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.title{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.description{
+    font-weight: 400;
+    font-size: 17px;
+    color: #7c8798;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+ul.rating{
+    display: flex;
+    justify-content: space-between;
+}
+ul.rating li{
+    background-color: #7c879833;
+    color: #959eac;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+button.cta-btn{
+    border-radius: 2rem;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: #fb7413;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.icon:hover{
+    background-color: #7c8798;
+    color: #fff;
+    cursor: pointer;
+}
+button.cta-btn:hover{
+    background-color: #fff;
+    color: #fb7413;
+    cursor: pointer;
+}
+.selected{
+    background-color: #fb7413 !important;
+    color: #fff !important;
+}
+.hero-container.thank-you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-container.thank-you .description{
+    font-size: 17.5px;
+    text-align: center;
+}
+.result{
+    background-color: rgba(124, 135, 152, 0.2);
+    border-radius: 2rem;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.result p{
+    color: #fb7413;
+    font-weight: 400;
+    font-size: 15px;
+}
+.thank-icon{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hidden{
+    display: none !important;
+}
